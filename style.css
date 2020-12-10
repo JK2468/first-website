@@ -1,4 +1,5 @@
 body{
+  transition: all 300ms ease;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   display: flex;
@@ -12,7 +13,7 @@ body{
 .card{
   padding: 10px;
   border: 4px solid rgba(0, 0, 255, 0.486);
-  box-shadow: 4px 10px cornsilk;
+  box-shadow: 4px 10px whitesmoke;
   border-radius: 4px;
 }
 
@@ -35,7 +36,7 @@ img{
 }
 
 #icon{
-  color: rgba(0, 0, 255, 0.63)
+  color: 0e76a8;
 }
 
 .form{
